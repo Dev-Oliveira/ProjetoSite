@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ff3344;
+}
+
+h1 {
+    font-size: 70pt;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+div {
+    border-radius: 10px;
+    width: 40%;
+    /*Esse comando abaixo serve para definir um tamanho minimo para a janela(ABA)*/
+    min-width: fit-content;
+    min-height: fit-content;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+    background: #fff;
+}
+
+label {
+    font-weight: bolder;
+    font-size: 1.5rem;
+    text-shadow: -1px 0 red, 0 1px red, 1px 0 red, 0 -1px red;
+}
+
+input {
+    margin: 5px;
+    border: 3px solid #ff3344;
+    padding: 4px;
+    width: 400px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+button#botao {
+    transition: background, color 1s;
+    color: #ff3344;
+    font-weight: bolder;
+    border: 1px solid #ff3344;
+    background: inherit;
+    margin-top: 7px;
+    font-size: 1.4rem;
+    outline: none;
+    width: 300px;
+    height: 38px;
+    border-radius: 50px;
+}
+
+button#botao:hover {
+    background: #ff3344;
+    color: white;
+}
